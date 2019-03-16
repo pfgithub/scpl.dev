@@ -3,6 +3,7 @@ body {
 	background: linear-gradient(var(--gradient-dir), #9D54D2, #EB526F) fixed;
 	overflow: hidden;
 	transition: 0.5s;
+	font-family: -apple-system, BlinkMacSystemFont, "San Francisco", "Helvetica Neue" sans-serif;
 }
 
 #card {
@@ -18,7 +19,7 @@ body {
 	width: 345px;
 	height: 160px;
 	padding: 8px;
-	box-shadow: 8px 8px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 0 50px rgba(0, 0, 0, 0.4);
 }
 
 #header {
