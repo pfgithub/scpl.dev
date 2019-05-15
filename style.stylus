@@ -1,5 +1,5 @@
 :root
-	--banner-background #24255d
+	--banner-background #303156
 	--heading-gradient linear-gradient(90deg, rgba(224,109,198,1) 0%, rgba(242,112,98,1) 21%, rgba(103,190,164,1) 67%, rgba(59,131,242,1) 100%)
 	--link-gradient linear-gradient(to bottom right, #4E91A9 30%, #3979D6 85%, #4A94BE 100%)
 	--heading-gradient-2 linear-gradient(90deg, rgba(224,109,198,1) 0%, rgba(242,112,98,1) 21%, rgba(103,190,164,1) 67%, rgba(59,131,242,1) 100%)
