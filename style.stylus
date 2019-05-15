@@ -1,5 +1,5 @@
 :root
-	--banner-background #1D1E5C
+	--banner-background #1e1f57
 	--heading-gradient linear-gradient(to bottom right, #3C6291 25%, #4E91A9 50%, #C65F9B 50%, #3979D6 85%, #4A94BE 100%)
 	--link-gradient linear-gradient(to bottom right, #4E91A9 30%, #3979D6 85%, #4A94BE 100%)
 	--heading-gradient-2 linear-gradient(to top left, #C66E64 0%, #C66E64 25%, #3C6291 25%, #4E91A9 50%, #C65F9B 50%, #8A4A76 75%, #3979D6 75%, #4A94BE 100%)
@@ -118,7 +118,7 @@ a.tablink
 	margin-left 10px
 	margin-right 10px
 a.colorlink
-	gradient-text var(--link-gradient) #4E91A9;
+	gradient-text var(--link-gradient) #007aff;
 	&::after
 		background var(--link-gradient)
 a.blandlink
@@ -131,7 +131,8 @@ a.blandlink
 	padding 6px
 	padding-left 10px
 	padding-right 10px
-	border-radius 20px
+	border-radius 5px
+	font-weight 500
 	margin-top 10px
 	margin-bottom 10px
 	transition 0.1s background-color, 0.1s color
@@ -150,7 +151,7 @@ h6
 
 
 .code
-	box-shadow 5px 5px 20px rgba(0,0,0,0.4)
+	box-shadow 0px 0px 20px rgba(0,0,0,0.1)
 	border-radius 10px
 	border none
 	margin 20px
@@ -168,9 +169,9 @@ h6
 		right 0
 		margin 10px
 		padding 10px
-		box-shadow 5px 5px 20px rgba(0,0,0,0.4)
+		box-shadow 0px 0px 10px rgba(0,0,0,0.3)
 		border-radius 10px
-		color blue
+		color #007aff
 		text-decoration none
 		z-index 1
 		background-color white;
