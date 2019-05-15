@@ -122,7 +122,7 @@ a.colorlink::after {
   content: "";
   position: absolute;
   bottom: 1px;
-  height: 0.5px;
+  height: 1px;
   left: 0;
   right: 0;
   background-color: #fff;
