@@ -1,0 +1,198 @@
+:root
+	--banner-background #1D1E5C
+	--heading-gradient linear-gradient(to bottom right, #3C6291 25%, #4E91A9 50%, #C65F9B 50%, #3979D6 85%, #4A94BE 100%)
+	--link-gradient linear-gradient(to bottom right, #4E91A9 30%, #3979D6 85%, #4A94BE 100%)
+	--heading-gradient-2 linear-gradient(to top left, #C66E64 0%, #C66E64 25%, #3C6291 25%, #4E91A9 50%, #C65F9B 50%, #8A4A76 75%, #3979D6 75%, #4A94BE 100%)
+
+html
+	min-height 100vh
+body
+	max-width 100vw
+	overflow-x hidden
+	overflow-y scroll
+	margin 0
+	background-color white
+.scrollrubberbanding
+	position fixed
+	top -10px
+	left -10px
+	right -10px
+	bottom -10px
+	background-color var(--banner-background)
+	z-index: -10
+.realmain
+	max-width 100vw
+	overflow-x hidden
+	overflow-y scroll
+	display grid
+	grid-template-rows minmax(100vh min-content)
+	font-family sans-serif
+	margin 0
+	min-height 100vh
+	background-color white
+	z-index -5
+.main
+	z-index 0
+	display grid
+	grid-template-rows min-content 1fr min-content
+	overflow hidden
+
+.content
+	display grid
+	grid-template-columns 1fr 10px minmax(0,500px) 10px 1fr
+	& > *
+		grid-column 3
+	&.footer
+		grid-row 3
+	
+.spacer
+	height 100%
+	min-height: 100%
+
+.banner
+	grid-column 2 / 5
+	color white
+	margin 0
+	padding 20px
+	text-align center
+	position relative
+	& a
+		color white
+	overflow-x visible
+	padding-top 40px
+	padding-bottom 40px
+	&::before
+		content ""
+		position absolute
+		top 0
+		left 0 
+		bottom 0
+		right 0
+		background-color var(--banner-background)
+		transform scale(100, 1) rotate(2deg);
+		z-index -1
+	&.expandup
+		padding-bottom 40px
+		margin-bottom 20px
+	&.expandup::before
+		transform scale(100,100) rotate(2deg)
+		transform-origin bottom center
+	&.expanddown
+		padding-top 40px
+		margin-top 20px
+	&.expanddown::before
+		transform scale(100,100) rotate(2deg)
+		transform-origin top center
+gradient-text(gradient, fallbackColor)
+	@supports (background-clip text) or (-webkit-background-clip text)
+		&
+			background: gradient
+			-webkit-background-clip text
+			background-clip text
+			-webkit-text-fill-color transparent
+			text-fill-color transparent
+	@supports not (background-clip text)
+		&
+			color fallbackColor
+h1
+	gradient-text var(--heading-gradient) #3979D6
+a
+	text-decoration none
+	white-space nowrap
+a.colorlink
+	position relative
+	white-space nowrap
+	&::after
+		content ""
+		position absolute
+		bottom 1px
+		height 0.5px
+		left 0
+		right 0
+		background-color white
+		transform scale(0,1);
+		transition 0.1s transform
+	&:hover::after
+		transform scale(1,1)
+a.tablink
+	margin-left 10px
+	margin-right 10px
+a.colorlink
+	gradient-text var(--link-gradient) #4E91A9;
+	&::after
+		background var(--link-gradient)
+a.blandlink
+	font-weight bold
+	&:hover
+		text-decoration underline
+.tablink
+	font-weight normal
+	border 2px solid white
+	padding 6px
+	padding-left 10px
+	padding-right 10px
+	border-radius 20px
+	margin-top 10px
+	margin-bottom 10px
+h1
+	margin 0
+	font-size 60pt
+h6
+	font-size 20pt
+	margin 0
+	margin-bottom 20px
+	font-style italic
+	font-weight normal
+	
+	
+.code
+	box-shadow 5px 5px 20px rgba(0,0,0,0.4)
+	border-radius 10px
+	border none
+	margin 20px
+	padding 0
+	position relative
+	display grid
+	& > textarea:focus + div + .tryitbtn
+		opacity 0
+		pointer-events none
+	& > .tryitbtn
+		opacity 1
+		transition 0.1s opacity
+		position absolute
+		top 0
+		right 0
+		margin 10px
+		padding 10px
+		box-shadow 5px 5px 20px rgba(0,0,0,0.4)
+		border-radius 10px
+		color blue
+		text-decoration none
+		z-index 1
+		background-color white;
+	& > .enablejavascript
+		display: none;
+		position absolute
+		top 0
+		left 0
+		bottom 0
+		right 0
+		background-color rgba(255,255,255,0.5)
+		text-align center
+		&:hover
+			display block
+	& > textarea
+		padding 10px
+		margin 0
+		border 0
+		border-radius 10px
+		&[disabled]
+			color black
+			opacity 1
+			&:hover + .enablejavascript
+				display: block;
+				
+
+iframe
+	width 100%
+	height 300px

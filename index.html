@@ -1,0 +1,55 @@
+<!doctype HTML>
+
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+	<link rel="stylesheet" href="style.css">
+	<title>ScPL | Write shortcuts in text.</title>
+</head>
+
+
+
+
+<body>
+<div class="scrollrubberbanding"></div>
+<div class="realmain">
+<div class="main">
+	<div class="content">
+		<div class="banner expandup">
+	 <h1 class="colorheader">ScPL</h1>
+	 <h6>A programming language for Shortcuts</h6>
+	 <a class="tablink" href="https://docs.scpl.dev">Documentation</a> <a href="https://editor.scpl.dev" class="tablink">Editor</a> <a href="https://docs.scpl.dev/gettingstarted" class="tablink">Getting Started</a>
+		</div>
+		<div class="graphicsplit"><p>ScPL is a programming language for Shortcuts that allows you to write shortcuts in text instead of dragging and dropping blocks. ScPL focuses on being easy to pick up and write. <a href="https://docs.scpl.dev" class="colorlink">Get Started</a></p></div>
+		<div class="code">
+			<textarea autosize=true rows="9" disabled=true>ShowResult "Hello ScPL"
+ChooseFromMenu items=["Getting Started", "View Documentation"]
+Case "Getting Started"
+	URL "https://docs.scpl.dev/gettingstarted"
+Case "View Documentation"
+	URL "https://docs.scpl.dev/"
+End Menu
+OpenURLs</textarea>
+			<div class="enablejavascript">Enable javascript to edit this text.</div>
+			<a class="tryitbtn" href="https://editor.scpl.dev/?scpl=ShowResult%20%22Hello%20ScPL%22%0AChooseFromMenu%20items%3D%5B%22Getting%20Started%22%2C%20%22View%20Documentation%22%5D%0ACase%20%22Getting%20Started%22%0A%09URL%20%22https%3A%2F%2Fdocs.scpl.dev%2Fgettingstarted%22%0ACase%20%22View%20Documentation%22%0A%09URL%20%22https%3A%2F%2Fdocs.scpl.dev%2F%22%0AEnd%20Menu%0AOpenURLs">Try It!</a>
+		</div>
+
+		<p>See what your shortcut looks like in ScPL by uploading it in the <a href="editor.scpl.dev" class="colorlink">ScPL Editor</a>.</p>
+		<h2 class="colorheader c2">Shortcuts made with ScPL</h2>
+		<p>More paragraph text</p>
+	</div>
+	<div class="content footer">
+		<div class="banner expanddown">
+			<a class="blandlink"  href="https://docs.scpl.dev">Documentation</a> &nbsp;&nbsp;&nbsp;<a class="blandlink"  href="https://editor.scpl.dev">Editor</a> &nbsp;&nbsp;&nbsp;<a class="blandlink" href="https://editor.scpl.dev">Getting Started</a>
+			<p><a href="https://github.com/pfgithub/scpl" class="blandlink">ScPL</a> is released under the <a href="https://raw.githubusercontent.com/pfgithub/shortcutslang/master/LICENSE" class="blandlink">MIT License</a><br/>© 2019 <a href="https://pfg.pw" class="blandlink">pfgithub</a></p>
+		</div>
+	</div>
+</div>
+</div>
+
+
+<script src="script.js" >
+</body>
+
+</html>
