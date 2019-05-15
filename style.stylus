@@ -172,7 +172,8 @@ h6
 		background-color #555
 		border 2px solid #ddd
 		border-radius 5px
-		color #007aff
+		color white
+		font-weight 500
 		text-decoration none
 		z-index 1
 	& > .enablejavascript
