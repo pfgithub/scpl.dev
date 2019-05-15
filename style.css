@@ -1,6 +1,6 @@
 :root {
   --banner-background: #1d1d1c;
-  --heading-gradient: linear-gradient(to bottom right, #3b83f2 25%, #67bea4 50%, #f27062 50%, #e06dc6 85%, #4a94be 100%);
+  --heading-gradient: linear-gradient(90deg, #e06dc6 0%, #f27062 21%, #67bea4 67%, #3b83f2 100%);
   --link-gradient: linear-gradient(to bottom right, #4e91a9 30%, #3979d6 85%, #4a94be 100%);
   --heading-gradient-2: linear-gradient(to top left, #c66e64 0%, #c66e64 25%, #3c6291 25%, #4e91a9 50%, #c65f9b 50%, #8a4a76 75%, #3979d6 75%, #4a94be 100%);
 }
@@ -187,7 +187,7 @@ h6 {
   font-weight: normal;
 }
 .code {
-  box-shadow: 0px 0px 20px rgba(0,0,0,0.1);
+  border: 1px solid #ddd;
   border-radius: 10px;
   border: none;
   margin: 20px;
@@ -207,12 +207,12 @@ h6 {
   right: 0;
   margin: 10px;
   padding: 10px;
-  box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
-  border-radius: 10px;
+  background-color: #555;
+  border: 2px solid #ddd;
+  border-radius: 5px;
   color: #007aff;
   text-decoration: none;
   z-index: 1;
-  background-color: #fff;
 }
 .code > .enablejavascript {
   display: none;

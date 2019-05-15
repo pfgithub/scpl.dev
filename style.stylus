@@ -1,6 +1,6 @@
 :root
 	--banner-background #1d1d1c
-	--heading-gradient linear-gradient(to bottom right, #3b83f2 25%, #67bea4 50%, #f27062 50%, #e06dc6 85%, #4A94BE 100%)
+	--heading-gradient linear-gradient(90deg, rgba(224,109,198,1) 0%, rgba(242,112,98,1) 21%, rgba(103,190,164,1) 67%, rgba(59,131,242,1) 100%)
 	--link-gradient linear-gradient(to bottom right, #4E91A9 30%, #3979D6 85%, #4A94BE 100%)
 	--heading-gradient-2 linear-gradient(to top left, #C66E64 0%, #C66E64 25%, #3C6291 25%, #4E91A9 50%, #C65F9B 50%, #8A4A76 75%, #3979D6 75%, #4A94BE 100%)
 
@@ -151,7 +151,7 @@ h6
 
 
 .code
-	box-shadow 0px 0px 20px rgba(0,0,0,0.1)
+	border 1px solid #ddd
 	border-radius 10px
 	border none
 	margin 20px
@@ -169,12 +169,12 @@ h6
 		right 0
 		margin 10px
 		padding 10px
-		box-shadow 0px 0px 10px rgba(0,0,0,0.3)
-		border-radius 10px
+		background-color #555
+		border 2px solid #ddd
+		border-radius 5px
 		color #007aff
 		text-decoration none
 		z-index 1
-		background-color white;
 	& > .enablejavascript
 		display: none;
 		position absolute
