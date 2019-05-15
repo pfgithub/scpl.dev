@@ -168,6 +168,11 @@ a.blandlink:hover {
   border-radius: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
+  transition: 0.1s background-color, 0.1s color;
+}
+.tablink:hover {
+  background-color: #fff;
+  color: var(--banner-background);
 }
 h1 {
   margin: 0;
