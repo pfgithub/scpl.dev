@@ -2,7 +2,7 @@
   --banner-background: #1d1d1c;
   --heading-gradient: linear-gradient(90deg, #e06dc6 0%, #f27062 21%, #67bea4 67%, #3b83f2 100%);
   --link-gradient: linear-gradient(to bottom right, #4e91a9 30%, #3979d6 85%, #4a94be 100%);
-  --heading-gradient-2: linear-gradient(to top left, #c66e64 0%, #c66e64 25%, #3c6291 25%, #4e91a9 50%, #c65f9b 50%, #8a4a76 75%, #3979d6 75%, #4a94be 100%);
+  --heading-gradient-2: linear-gradient(90deg, #e06dc6 0%, #f27062 21%, #67bea4 67%, #3b83f2 100%);
 }
 html {
   min-height: 100vh;
