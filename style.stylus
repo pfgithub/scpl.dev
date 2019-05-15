@@ -27,7 +27,6 @@ body
 	overflow-y scroll
 	display grid
 	grid-template-rows minmax(100vh min-content)
-	font-family sans-serif
 	margin 0
 	min-height 100vh
 	background-color white
