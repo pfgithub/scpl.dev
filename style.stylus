@@ -1,8 +1,8 @@
 :root
 	--banner-background #29374c
-	--heading-gradient linear-gradient(90deg, rgba(224,109,198,1) 0%, rgba(242,112,98,1) 21%, rgba(103,190,164,1) 67%, rgba(59,131,242,1) 100%)
+	--heading-gradient linear-gradient(90deg, #e06dc6 10%, #f27062 31%, #67bea4 47%, #3b83f2 100%)
 	--link-gradient linear-gradient(to bottom right, #4E91A9 30%, #3979D6 85%, #4A94BE 100%)
-	--heading-gradient-2 linear-gradient(90deg, rgba(224,109,198,1) 0%, rgba(242,112,98,1) 21%, rgba(103,190,164,1) 67%, rgba(59,131,242,1) 100%)
+	--heading-gradient-2 linear-gradient(90deg, #e06dc6 10%, #f27062 31%, #67bea4 47%, #3b83f2 100%)
 
 html
 	min-height 100vh
