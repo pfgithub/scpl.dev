@@ -80,6 +80,7 @@ body
 	&.expanddown
 		padding-top 40px
 		margin-top 20px
+		color #8b97a9
 	&.expanddown::before
 		transform scale(100,100) rotate(2deg)
 		transform-origin top center
@@ -123,9 +124,9 @@ a.colorlink
 		background var(--link-gradient)
 a.blandlink
 	color #67bea4
-	border 1px dashed #67bea485
+	border-bottom 1px dashed #67bea485
 	&:hover
-		border-color: #67bea4;
+		border-color #67bea4
 .tablink
 	font-weight normal
 	border 1px solid rgba(200,200,200,.5)
@@ -151,8 +152,6 @@ h6
 
 
 .code
-	border 2px solid #ddd
-	border-radius 5px
 	margin 20px
 	padding 0
 	position relative
@@ -176,7 +175,7 @@ h6
 		text-decoration none
 		z-index 1
 	& > .enablejavascript
-		display: none;
+		display none
 		position absolute
 		top 0
 		left 0
@@ -188,15 +187,18 @@ h6
 			display block
 	& > textarea
 		padding 10px
+		caret-color #3b83f2
 		margin 0
-		border 0
-		border-radius 10px
+		border 2px solid #ddd
+		outline none
+		border-radius 5px
+		&:focus
+			border-color #3b83f2
 		&[disabled]
 			color black
 			opacity 1
 			&:hover + .enablejavascript
 				display: block;
-
 
 iframe
 	width 100%

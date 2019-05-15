@@ -91,6 +91,7 @@ body {
 .banner.expanddown {
   padding-top: 40px;
   margin-top: 20px;
+  color: #8b97a9;
 }
 .banner.expanddown::before {
   transform: scale(100, 100) rotate(2deg);
@@ -155,7 +156,7 @@ a.colorlink::after {
 }
 a.blandlink {
   color: #67bea4;
-  border: 1px dashed rgba(103,190,164,0.522);
+  border-bottom: 1px dashed rgba(103,190,164,0.522);
 }
 a.blandlink:hover {
   border-color: #67bea4;
@@ -188,8 +189,6 @@ h6 {
   font-weight: normal;
 }
 .code {
-  border: 2px solid #ddd;
-  border-radius: 5px;
   margin: 20px;
   padding: 0;
   position: relative;
@@ -230,9 +229,14 @@ h6 {
 }
 .code > textarea {
   padding: 10px;
+  caret-color: #3b83f2;
   margin: 0;
-  border: 0;
-  border-radius: 10px;
+  border: 2px solid #ddd;
+  outline: none;
+  border-radius: 5px;
+}
+.code > textarea:focus {
+  border-color: #3b83f2;
 }
 .code > textarea[disabled] {
   color: #000;
