@@ -1,5 +1,5 @@
 :root {
-  --banner-background: #1d1d1c;
+  --banner-background: #24255d;
   --heading-gradient: linear-gradient(90deg, #e06dc6 0%, #f27062 21%, #67bea4 67%, #3b83f2 100%);
   --link-gradient: linear-gradient(to bottom right, #4e91a9 30%, #3979d6 85%, #4a94be 100%);
   --heading-gradient-2: linear-gradient(90deg, #e06dc6 0%, #f27062 21%, #67bea4 67%, #3b83f2 100%);
@@ -187,9 +187,8 @@ h6 {
   font-weight: normal;
 }
 .code {
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  border: none;
+  border: 2px solid #ddd;
+  border-radius: 5px;
   margin: 20px;
   padding: 0;
   position: relative;
