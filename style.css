@@ -1,8 +1,8 @@
 :root {
   --banner-background: #29374c;
-  --heading-gradient: linear-gradient(90deg, #e06dc6 0%, #f27062 21%, #67bea4 67%, #3b83f2 100%);
+  --heading-gradient: linear-gradient(90deg, #e06dc6 10%, #f27062 31%, #67bea4 47%, #3b83f2 100%);
   --link-gradient: linear-gradient(to bottom right, #4e91a9 30%, #3979d6 85%, #4a94be 100%);
-  --heading-gradient-2: linear-gradient(90deg, #e06dc6 0%, #f27062 21%, #67bea4 67%, #3b83f2 100%);
+  --heading-gradient-2: linear-gradient(90deg, #e06dc6 10%, #f27062 31%, #67bea4 47%, #3b83f2 100%);
 }
 html {
   min-height: 100vh;
@@ -171,7 +171,6 @@ a.blandlink:hover {
 }
 .tablink:hover {
   background-color: rgba(200,200,200,0.1);
-  color: var(--banner-background);
 }
 h1 {
   margin: 0;
