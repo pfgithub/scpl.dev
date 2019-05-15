@@ -154,10 +154,11 @@ a.colorlink::after {
   background: var(--link-gradient);
 }
 a.blandlink {
-  font-weight: bold;
+  color: #67bea4;
+  border: 1px dashed rgba(103,190,164,0.522);
 }
 a.blandlink:hover {
-  text-decoration: underline;
+  border-color: #67bea4;
 }
 .tablink {
   font-weight: normal;
