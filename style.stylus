@@ -1,5 +1,5 @@
 :root
-	--banner-background #303156
+	--banner-background #29374c
 	--heading-gradient linear-gradient(90deg, rgba(224,109,198,1) 0%, rgba(242,112,98,1) 21%, rgba(103,190,164,1) 67%, rgba(59,131,242,1) 100%)
 	--link-gradient linear-gradient(to bottom right, #4E91A9 30%, #3979D6 85%, #4A94BE 100%)
 	--heading-gradient-2 linear-gradient(90deg, rgba(224,109,198,1) 0%, rgba(242,112,98,1) 21%, rgba(103,190,164,1) 67%, rgba(59,131,242,1) 100%)
@@ -127,26 +127,24 @@ a.blandlink
 		text-decoration underline
 .tablink
 	font-weight normal
-	border 2px solid white
-	padding 6px
-	padding-left 10px
-	padding-right 10px
+	border 1px solid rgba(200,200,200,.5)
+	padding 10px 20px
 	border-radius 5px
 	font-weight 500
 	margin-top 10px
 	margin-bottom 10px
 	transition 0.1s background-color, 0.1s color
 	&:hover
-		background-color white
+		background-color rgba(200,200,200,.1)
 		color var(--banner-background)
 h1
 	margin 0
 	font-size 60pt
 h6
-	font-size 20pt
+	font-size 15pt
 	margin 0
 	margin-bottom 20px
-	font-style italic
+	color #67bea4
 	font-weight normal
 
 

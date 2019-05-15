@@ -1,5 +1,5 @@
 :root {
-  --banner-background: #303156;
+  --banner-background: #29374c;
   --heading-gradient: linear-gradient(90deg, #e06dc6 0%, #f27062 21%, #67bea4 67%, #3b83f2 100%);
   --link-gradient: linear-gradient(to bottom right, #4e91a9 30%, #3979d6 85%, #4a94be 100%);
   --heading-gradient-2: linear-gradient(90deg, #e06dc6 0%, #f27062 21%, #67bea4 67%, #3b83f2 100%);
@@ -161,10 +161,8 @@ a.blandlink:hover {
 }
 .tablink {
   font-weight: normal;
-  border: 2px solid #fff;
-  padding: 6px;
-  padding-left: 10px;
-  padding-right: 10px;
+  border: 1px solid rgba(200,200,200,0.5);
+  padding: 10px 20px;
   border-radius: 5px;
   font-weight: 500;
   margin-top: 10px;
@@ -172,7 +170,7 @@ a.blandlink:hover {
   transition: 0.1s background-color, 0.1s color;
 }
 .tablink:hover {
-  background-color: #fff;
+  background-color: rgba(200,200,200,0.1);
   color: var(--banner-background);
 }
 h1 {
@@ -180,10 +178,10 @@ h1 {
   font-size: 60pt;
 }
 h6 {
-  font-size: 20pt;
+  font-size: 15pt;
   margin: 0;
   margin-bottom: 20px;
-  font-style: italic;
+  color: #67bea4;
   font-weight: normal;
 }
 .code {
