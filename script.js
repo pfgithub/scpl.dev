@@ -1,4 +1,4 @@
-function autosize(t){t.setAttribute("rows", Math.max(t.value.split(`\n`).length, 5));}
+function autosize(t){t.setAttribute("rows", Math.max(t.value.split(`\n`).length + 1, 5));}
 
 Array.from(document.getElementsByClassName("code")).forEach(el => {
 	let t = el.children[0];
