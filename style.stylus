@@ -12,6 +12,7 @@ body
 	overflow-y scroll
 	margin 0
 	background-color white
+	font-family -apple-system, BlinkMacSystemFont, 'Source Sans Pro', Helvetica, Arial, sans-serif
 .scrollrubberbanding
 	position fixed
 	top -10px
@@ -44,7 +45,7 @@ body
 		grid-column 3
 	&.footer
 		grid-row 3
-	
+
 .spacer
 	height 100%
 	min-height: 100%
@@ -65,7 +66,7 @@ body
 		content ""
 		position absolute
 		top 0
-		left 0 
+		left 0
 		bottom 0
 		right 0
 		background-color var(--banner-background)
@@ -147,8 +148,8 @@ h6
 	margin-bottom 20px
 	font-style italic
 	font-weight normal
-	
-	
+
+
 .code
 	box-shadow 5px 5px 20px rgba(0,0,0,0.4)
 	border-radius 10px
@@ -195,7 +196,7 @@ h6
 			opacity 1
 			&:hover + .enablejavascript
 				display: block;
-				
+
 
 iframe
 	width 100%

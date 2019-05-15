@@ -13,6 +13,7 @@ body {
   overflow-y: scroll;
   margin: 0;
   background-color: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, 'Source Sans Pro', Helvetica, Arial, sans-serif;
 }
 .scrollrubberbanding {
   position: fixed;
