@@ -1,6 +1,6 @@
 :root
-	--banner-background #1e1f57
-	--heading-gradient linear-gradient(to bottom right, #3C6291 25%, #4E91A9 50%, #C65F9B 50%, #3979D6 85%, #4A94BE 100%)
+	--banner-background #1d1d1c
+	--heading-gradient linear-gradient(to bottom right, #3b83f2 25%, #67bea4 50%, #f27062 50%, #e06dc6 85%, #4A94BE 100%)
 	--link-gradient linear-gradient(to bottom right, #4E91A9 30%, #3979D6 85%, #4A94BE 100%)
 	--heading-gradient-2 linear-gradient(to top left, #C66E64 0%, #C66E64 25%, #3C6291 25%, #4E91A9 50%, #C65F9B 50%, #8A4A76 75%, #3979D6 75%, #4A94BE 100%)
 

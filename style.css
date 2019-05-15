@@ -1,6 +1,6 @@
 :root {
-  --banner-background: #1e1f57;
-  --heading-gradient: linear-gradient(to bottom right, #3c6291 25%, #4e91a9 50%, #c65f9b 50%, #3979d6 85%, #4a94be 100%);
+  --banner-background: #1d1d1c;
+  --heading-gradient: linear-gradient(to bottom right, #3b83f2 25%, #67bea4 50%, #f27062 50%, #e06dc6 85%, #4a94be 100%);
   --link-gradient: linear-gradient(to bottom right, #4e91a9 30%, #3979d6 85%, #4a94be 100%);
   --heading-gradient-2: linear-gradient(to top left, #c66e64 0%, #c66e64 25%, #3c6291 25%, #4e91a9 50%, #c65f9b 50%, #8a4a76 75%, #3979d6 75%, #4a94be 100%);
 }
