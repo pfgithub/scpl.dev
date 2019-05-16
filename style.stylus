@@ -69,7 +69,7 @@ body
 		bottom 0
 		right 0
 		background-color var(--banner-background)
-		transform scale(100, 1) rotate(2deg);
+		transform rotate(2deg) scale(100, 1);
 		z-index -1
 	&.expandup
 		padding-bottom 40px
@@ -95,7 +95,9 @@ gradient-text(gradient, fallbackColor)
 	@supports not (background-clip text)
 		&
 			color fallbackColor
-h1
+.colorheader
+	color var(--banner-background)
+.banner .colorheader
 	gradient-text var(--heading-gradient) #3979D6
 a
 	text-decoration none
