@@ -36,7 +36,6 @@ body
 	display grid
 	grid-template-rows min-content 1fr min-content
 	overflow hidden
-
 .content
 	display grid
 	grid-template-columns 1fr 10px minmax(0,500px) 10px 1fr
@@ -95,14 +94,22 @@ gradient-text(gradient, fallbackColor)
 	@supports not (background-clip text)
 		&
 			color fallbackColor
+.markdown h1
+.markdown h2
+.markdown h3
+.markdown h4
+.markdown h5
+.markdown h6
 .colorheader
 	color var(--banner-background)
-.banner .colorheader
-	gradient-text var(--heading-gradient) #3979D6
+	.banner &
+		gradient-text var(--heading-gradient) #3979D6
 a
 	text-decoration none
 	white-space nowrap
+.markdown a
 a.colorlink
+	gradient-text var(--link-gradient) #007aff;
 	position relative
 	white-space nowrap
 	&::after
@@ -112,7 +119,7 @@ a.colorlink
 		height 1px
 		left 0
 		right 0
-		background-color white
+		background var(--link-gradient)
 		transform scale(0,1);
 		transition 0.1s transform
 	&:hover::after
@@ -120,10 +127,6 @@ a.colorlink
 a.tablink
 	margin-left 10px
 	margin-right 10px
-a.colorlink
-	gradient-text var(--link-gradient) #007aff;
-	&::after
-		background var(--link-gradient)
 a.blandlink
 	color #67bea4
 	border-bottom 1px dashed #67bea485
@@ -142,7 +145,7 @@ a.blandlink
 		background-color rgba(200,200,200,.2)
 	&:active
 		opacity: .7
-h1
+h1.giant
 	margin 0
 	font-size 60pt
 h6

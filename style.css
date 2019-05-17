@@ -97,10 +97,22 @@ body {
   transform: scale(100, 100) rotate(2deg);
   transform-origin: top center;
 }
+.markdown h1,
+.markdown h2,
+.markdown h3,
+.markdown h4,
+.markdown h5,
+.markdown h6,
 .colorheader {
   color: var(--banner-background);
 }
 @supports (background-clip: text) or (-webkit-background-clip: text) {
+  .banner .markdown h1,
+  .banner .markdown h2,
+  .banner .markdown h3,
+  .banner .markdown h4,
+  .banner .markdown h5,
+  .banner .markdown h6,
   .banner .colorheader {
     background: var(--heading-gradient);
     -webkit-background-clip: text;
@@ -110,6 +122,12 @@ body {
   }
 }
 @supports not (background-clip: text) {
+  .banner .markdown h1,
+  .banner .markdown h2,
+  .banner .markdown h3,
+  .banner .markdown h4,
+  .banner .markdown h5,
+  .banner .markdown h6,
   .banner .colorheader {
     color: #3979d6;
   }
@@ -118,29 +136,13 @@ a {
   text-decoration: none;
   white-space: nowrap;
 }
+.markdown a,
 a.colorlink {
   position: relative;
   white-space: nowrap;
 }
-a.colorlink::after {
-  content: "";
-  position: absolute;
-  bottom: 1px;
-  height: 1px;
-  left: 0;
-  right: 0;
-  background-color: #fff;
-  transform: scale(0, 1);
-  transition: 0.1s transform;
-}
-a.colorlink:hover::after {
-  transform: scale(1, 1);
-}
-a.tablink {
-  margin-left: 10px;
-  margin-right: 10px;
-}
 @supports (background-clip: text) or (-webkit-background-clip: text) {
+  .markdown a,
   a.colorlink {
     background: var(--link-gradient);
     -webkit-background-clip: text;
@@ -150,12 +152,30 @@ a.tablink {
   }
 }
 @supports not (background-clip: text) {
+  .markdown a,
   a.colorlink {
     color: #007aff;
   }
 }
+.markdown a::after,
 a.colorlink::after {
+  content: "";
+  position: absolute;
+  bottom: 1px;
+  height: 1px;
+  left: 0;
+  right: 0;
   background: var(--link-gradient);
+  transform: scale(0, 1);
+  transition: 0.1s transform;
+}
+.markdown a:hover::after,
+a.colorlink:hover::after {
+  transform: scale(1, 1);
+}
+a.tablink {
+  margin-left: 10px;
+  margin-right: 10px;
 }
 a.blandlink {
   color: #67bea4;
@@ -180,7 +200,7 @@ a.blandlink:hover {
 .tablink:active {
   opacity: 0.7;
 }
-h1 {
+h1.giant {
   margin: 0;
   font-size: 60pt;
 }
