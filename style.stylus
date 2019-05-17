@@ -68,20 +68,20 @@ body
 		bottom 0
 		right 0
 		background-color var(--banner-background)
-		transform rotate(2deg) scale(100, 1);
+		transform rotate(0deg) scale(100, 1);
 		z-index -1
 	&.expandup
 		padding-bottom 40px
 		margin-bottom 20px
 	&.expandup::before
-		transform scale(100,100) rotate(2deg)
+		transform scale(100,100) rotate(0deg)
 		transform-origin bottom center
 	&.expanddown
 		padding-top 40px
 		margin-top 20px
 		color #8b97a9
 	&.expanddown::before
-		transform scale(100,100) rotate(2deg)
+		transform scale(100,100) rotate(0deg)
 		transform-origin top center
 gradient-text(gradient, fallbackColor)
 	@supports (background-clip text) or (-webkit-background-clip text)
