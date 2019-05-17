@@ -220,3 +220,17 @@ code
 	color #3838b6
 	border-radius 3px
 	white-space nowrap
+ul
+	padding 0
+	margin 0
+ul li
+	line-height 25px
+pre
+	padding 15px
+	background-color #eee
+	border-radius 5px
+	white-space normal
+	color #3838b6
+pre.highlight
+	word-wrap: normal;
+	overflow-x: scroll;
