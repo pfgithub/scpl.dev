@@ -77,7 +77,7 @@ body {
   bottom: 0;
   right: 0;
   background-color: var(--banner-background);
-  transform: rotate(2deg) scale(100, 1);
+  transform: rotate(0deg) scale(100, 1);
   z-index: -1;
 }
 .banner.expandup {
@@ -85,7 +85,7 @@ body {
   margin-bottom: 20px;
 }
 .banner.expandup::before {
-  transform: scale(100, 100) rotate(2deg);
+  transform: scale(100, 100) rotate(0deg);
   transform-origin: bottom center;
 }
 .banner.expanddown {
@@ -94,7 +94,7 @@ body {
   color: #8b97a9;
 }
 .banner.expanddown::before {
-  transform: scale(100, 100) rotate(2deg);
+  transform: scale(100, 100) rotate(0deg);
   transform-origin: top center;
 }
 .markdown h1,
@@ -104,7 +104,7 @@ body {
 .markdown h5,
 .markdown h6,
 .colorheader {
-  color: var(--banner-background);
+  color: #31856c;
 }
 @supports (background-clip: text) or (-webkit-background-clip: text) {
   .banner .markdown h1,
@@ -131,6 +131,9 @@ body {
   .banner .colorheader {
     color: #3979d6;
   }
+}
+.footer .banner:before {
+  background: #111;
 }
 a {
   text-decoration: none;
@@ -192,9 +195,10 @@ a.blandlink:hover {
   font-weight: 500;
   margin-top: 10px;
   margin-bottom: 10px;
-  transition: 0.1s background-color, 0.1s color;
+  transition: 0.2s all;
 }
 .tablink:hover {
+  border-color: #fff;
   background-color: rgba(200,200,200,0.2);
 }
 .tablink:active {
@@ -271,4 +275,12 @@ h6 {
 iframe {
   width: 100%;
   height: 300px;
+}
+code {
+  background-color: #eee;
+  padding: 2px 3px;
+  line-height: 22px;
+  color: #3838b6;
+  border-radius: 3px;
+  white-space: nowrap;
 }

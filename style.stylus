@@ -20,7 +20,7 @@ body
 	right -10px
 	bottom -10px
 	background-color var(--banner-background)
-	z-index: -10
+	z-index -10
 .realmain
 	max-width 100vw
 	overflow-x hidden
@@ -46,7 +46,7 @@ body
 
 .spacer
 	height 100%
-	min-height: 100%
+	min-height 100%
 
 .banner
 	grid-column 2 / 5
@@ -86,7 +86,7 @@ body
 gradient-text(gradient, fallbackColor)
 	@supports (background-clip text) or (-webkit-background-clip text)
 		&
-			background: gradient
+			background gradient
 			-webkit-background-clip text
 			background-clip text
 			-webkit-text-fill-color transparent
@@ -101,9 +101,12 @@ gradient-text(gradient, fallbackColor)
 .markdown h5
 .markdown h6
 .colorheader
-	color var(--banner-background)
+	color #31856c
 	.banner &
 		gradient-text var(--heading-gradient) #3979D6
+.footer .banner
+	&:before
+		background #111
 a
 	text-decoration none
 	white-space nowrap
@@ -140,11 +143,12 @@ a.blandlink
 	font-weight 500
 	margin-top 10px
 	margin-bottom 10px
-	transition 0.1s background-color, 0.1s color
+	transition 0.2s all
 	&:hover
+		border-color white
 		background-color rgba(200,200,200,.2)
 	&:active
-		opacity: .7
+		opacity .7
 h1.giant
 	margin 0
 	font-size 60pt
@@ -203,8 +207,16 @@ h6
 			color black
 			opacity 1
 			&:hover + .enablejavascript
-				display: block;
+				display block
 
 iframe
 	width 100%
 	height 300px
+
+code
+	background-color #eee
+	padding 2px 3px
+	line-height 22px
+	color #3838b6
+	border-radius 3px
+	white-space nowrap
