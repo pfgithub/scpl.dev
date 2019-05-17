@@ -104,7 +104,7 @@ body {
 .markdown h5,
 .markdown h6,
 .colorheader {
-  color: #31856c;
+  color: #00573d;
 }
 @supports (background-clip: text) or (-webkit-background-clip: text) {
   .banner .markdown h1,
@@ -181,7 +181,7 @@ a.tablink {
   margin-right: 10px;
 }
 a.blandlink {
-  color: #67bea4;
+  color: #c2cad7;
   border-bottom: 1px dashed rgba(103,190,164,0.522);
 }
 a.blandlink:hover {

@@ -101,7 +101,7 @@ gradient-text(gradient, fallbackColor)
 .markdown h5
 .markdown h6
 .colorheader
-	color #31856c
+	color #00573d
 	.banner &
 		gradient-text var(--heading-gradient) #3979D6
 .footer .banner
@@ -131,7 +131,7 @@ a.tablink
 	margin-left 10px
 	margin-right 10px
 a.blandlink
-	color #67bea4
+	color #c2cad7
 	border-bottom 1px dashed #67bea485
 	&:hover
 		border-color #67bea4
