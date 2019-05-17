@@ -133,7 +133,7 @@ body {
   }
 }
 .footer .banner:before {
-  background: #111;
+  background: #000;
 }
 a {
   text-decoration: none;

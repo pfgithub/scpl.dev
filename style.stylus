@@ -106,7 +106,7 @@ gradient-text(gradient, fallbackColor)
 		gradient-text var(--heading-gradient) #3979D6
 .footer .banner
 	&:before
-		background #111
+		background black
 a
 	text-decoration none
 	white-space nowrap
