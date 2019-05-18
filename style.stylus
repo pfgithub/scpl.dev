@@ -101,7 +101,7 @@ gradient-text(gradient, fallbackColor)
 .markdown h5
 .markdown h6
 .colorheader
-	color #00573d
+	color black
 	.banner &
 		gradient-text var(--heading-gradient) #3979D6
 .footer .banner

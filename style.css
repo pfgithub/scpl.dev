@@ -104,7 +104,7 @@ body {
 .markdown h5,
 .markdown h6,
 .colorheader {
-  color: #00573d;
+  color: #000;
 }
 @supports (background-clip: text) or (-webkit-background-clip: text) {
   .banner .markdown h1,
