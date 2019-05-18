@@ -27,4 +27,4 @@ To compile your ScPL code you can use the scpl-cli npm package. `npm install --g
 
 [Github](https://github.com/pfgithub/scpl)
 
-ScPL is written in TypeScript. To install the dev version, clone the git repo and run `yarn install`. Before making a pull request, make sure to run `yarn format` to automatically format your code with prettier and `yarn test` to make sure it passes all the tests.
+ScPL is written in TypeScript. To install the dev version, clone the git repo and run `yarn install`. Before making a pull request, make sure to run `yarn format` to automatically format your code with prettier and `yarn test` to make sure it passes all the tests. 
