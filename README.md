@@ -1,3 +1,9 @@
+---
+layout: default
+title: ScPL
+description: An easier way to write shortcuts
+---
+
 ScPL is a programming language for Shortcuts that allows you to write shortcuts in text instead of dragging and dropping blocks. ScPL focuses on being easy to pick up and write. [Get Started](https://docs.scpl.dev/gettingstarted)
 
 ```scpleditor
