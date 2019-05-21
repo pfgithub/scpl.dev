@@ -1,6 +1,8 @@
 ---
 layout: default
 title:  "ScPL Web Editor Update"
+categories: [updates, web-editor]
+---
 ---
 
 # ScPL Web Editor Update, 2019-05-21
