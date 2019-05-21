@@ -1,11 +1,11 @@
 ---
 layout: default
-title:  "ScPL Web Editor Update"
+title:  "2019-05-21, Minor ScPL Web Editor Update"
 categories: [updates, web-editor]
 ---
 ---
 
-# ScPL Web Editor Update, 2019-05-21
+# 2019-05-21, Minor ScPL Web Editor Update
 
 ## New Features
 
