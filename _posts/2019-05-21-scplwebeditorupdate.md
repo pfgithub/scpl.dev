@@ -5,8 +5,6 @@ title:  "ScPL Web Editor Update"
 
 # ScPL Web Editor Update, 2019-05-21
 
-Post test
-
 ## New Features
 
 > Added the ability to convert a shortcut from an icloud link.
