@@ -7,13 +7,14 @@ description: An easier way to write Shortcuts
 <p>
     ScPL is a programming language for Shortcuts that allows you
     to write shortcuts in text instead of dragging and dropping
-    blocks. ScPL lets you copy and paste actions, and makes large
-    shortcuts easier to maintain.
+    blocks. ScPL lets you work with large shortcuts easily by
+    letting you copy and paste actions, view long shortcuts without
+    scrolling, and type actions instead of dragging them in.
     <a href="https://docs.scpl.dev/gettingstarted">Get Started</a>
 </p>
 
 <pre><code class="scpleditor language-scpleditor">ShowResult "Hello ScPL"
-ChooseFromMenu prompt="ScPL Editor" items=["Getting Started", "View Documentation"]
+ChooseFromMenu prompt="ScPL" items=["Getting Started", "View Documentation"]
 Case "Getting Started"
     URL "https://docs.scpl.dev/gettingstarted"
 Case "View Documentation"
