@@ -22,8 +22,8 @@ categories: [updates, web-editor]
 
 ## Minor Changes
 
-- Added an icon to the generate QR code buton
-- Improved the appearence of the preview when your code has an error
+- Added an icon to the generate QR code button
+- Improved the appearance of the preview when your code has an error
 - Adjusted sizing of the QR code
 
 ## Fixed Bugs
@@ -32,4 +32,4 @@ categories: [updates, web-editor]
 
 ## Added bugs
 
-- When generating a qr code for your shortcut, the loading spinner no longer appears
+- When generating a QR code for your shortcut, the loading spinner no longer appears
