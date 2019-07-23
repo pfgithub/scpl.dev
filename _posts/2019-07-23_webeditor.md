@@ -17,4 +17,3 @@ categories: [updates, web-editor]
 - iPad users should notice more controls on screen in landscape and better responsiveness overall
 - Search action results have been slightly changed, search bar and results also should not take up as much space as before
 - A loading spinner shows up when generating a QR code
-- Added an icon to the generate QR code button
