@@ -3,7 +3,6 @@ layout: default
 title:  "2019-07-23, ScPL Web Editor Update"
 categories: [updates, web-editor]
 ---
----
 
 # 2019-07-23, ScPL Web Editor Update
 
